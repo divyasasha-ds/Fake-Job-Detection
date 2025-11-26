@@ -23,9 +23,14 @@ It uses **Python**, **scikit-learn**, and **TF-IDF** to classify job description
      python fake_job_detection.py
 
 
-## **Dataset**
-- `description` : Job description text.  
-- `fraudulent` : 0 = Real, 1 = Fake.  
+## Dataset
+
+The dataset of job postings can be downloaded from:  
+[Fake Job Postings Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-job-postings)
+
+- `description` : Job description text
+- `fraudulent` : 0 = Real, 1 = Fake
+
 
 ## **Output**
 - Model accuracy and classification report.  
